@@ -1,0 +1,191 @@
+.gameBox{
+  width: 1280px;
+  height: 800px;
+  margin: auto;
+  background-image: url(./medias/fond/Game.png);
+}
+
+.names{
+  font-family: monospace;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.powerBar{
+  margin-left: 390px;
+}
+.health-bar {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 500px;
+  height: 20px;
+  
+  background:blue;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 15px;
+  position: relative;
+}
+.barInitial, .bar0, .bar100 {
+  background: #c54;
+  height: 20px;
+  position: relative;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  list-style: none;
+}
+
+.barInitial{
+  width: 50%;
+}
+.bar0 {
+  width: 0%;
+}
+  
+  
+
+.bar100 {
+  width: 100%;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+
+}
+
+
+
+
+.players{
+  display: inline-block;
+}
+.player1{
+  width: 450px;
+    height: 500px;
+    background-image: url(./medias/skins/gilet_neutre.gif) ;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 520px;
+    left: -200px;
+}
+
+.player2{
+  width: 450px;
+    height: 500px;
+    background-image: url(./medias/skins/crs_neutre.gif) ;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 520px;
+    left: -200px;
+}
+
+.player1-state1{
+  background-color: red;
+}
+
+.player1-state2{
+  
+  background-color: green;
+}
+
+.player1-state3{
+  background-color: yellow;
+}
+.player2-state1{
+  background-image: url(./medias/skins/crs_neutre.gif);
+  width: 250px;
+  height: 500px;
+}
+
+.player2-state2{
+  background-color: green;
+}
+
+.player2-state3{
+  background-color: yellow;
+}
+.player1-state1, .player1-state2, .player1-state3, .player2-state1, .player2-state2, .player2-state3{
+  height: 100px;
+  width: 80px;
+  list-style:none;
+}
+
+.lettersJ2 li{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left: 1140px;
+ 
+}
+.lettersJ1 li{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left: 180px;
+ 
+}
+
+.players li{
+  list-style: none;
+}
+
+.keyO-hidden, .keyK-hidden, .keyL-hidden, .keyM-hidden, .keyZ-hidden, .keyQ-hidden, .keyS-hidden, .keyD-hidden{
+  background:transparent;
+}
+
+.keyZ{
+  background-image: url(./medias/touches/Z.png);
+  background-size: 100%;
+  
+  
+}
+.keyQ{
+  background-image: url(./medias/touches/Q.png);
+  background-size: 100%;
+  
+  
+}
+.keyS{
+  background-image: url(./medias/touches/S.png);
+  background-size: 100%;
+  
+}
+.keyD{
+  background-image: url(./medias/touches/D.png);
+  background-size: 100%;
+  
+}
+
+.keyO{
+  background-image: url(./medias/touches/O.png);
+  background-size: 100%;
+  
+  
+}
+.keyK{
+  background-image: url(./medias/touches/K.png);
+  background-size: 100%;
+  
+  
+}
+.keyL{
+  background-image: url(./medias/touches/L.png);
+  background-size: 100%;
+  
+}
+.keyM{
+  background-image: url(./medias/touches/M.png);
+  background-size: 100%;
+  
+}
+
+.keyO-hidden, .keyK-hidden, .keyL-hidden, .keyM-hidden, .keyO, .keyK, .keyL, .keyM, .keyZ-hidden, .keyQ-hidden, .keyS-hidden, .keyD-hidden, .keyZ, .keyQ, .keyS, .keyD {
+  list-style: none;
+}
